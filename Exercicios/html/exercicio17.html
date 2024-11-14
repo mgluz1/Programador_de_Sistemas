@@ -1,0 +1,12 @@
+<!-- 17. Escreva um programa que solicita três números ao usuário e retorna a média ponderada deles. -->
+<script>
+    alert("Seja bem-vindo, Calcule aqui!!!");
+    const p1=2, p2=3, p3=5;
+    var n1 = Number(prompt("Qual a sua nota em matemática??"));
+    var n2 = Number(prompt("Qual a sua nota em fisica??"));
+    var n3 = Number(prompt("Qual a sua nota em biologia??"))
+    var n1m = (n1 * p1)
+    var n2f = (n2 * p2)
+    var n3b = (n3 * p3)
+    document.write(`A média ponderada entre ${n1}, ${n2} e ${n3} é igual a ${((n1m + n2f + n3b)/(10))}.`); 
+</script>

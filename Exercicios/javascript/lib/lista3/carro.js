@@ -6,3 +6,5 @@ var palio = {
     },
     imprimir: function() { console.table(this);  },
 }
+
+while(this.velocidade);

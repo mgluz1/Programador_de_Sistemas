@@ -2,15 +2,15 @@ var input = require('fs').readFileSync('./input.txt', 'utf8');
 var lines = input.split('\n');
 
 var abc = lines[0].split(' ');
-var a = abc[0];
+var a = parseFloat(abc[0]);
 
 if (a === 0) {
     console.log("Impossivel calcular");
 
 } else {
 
-var b = abc[1];
-var c = abc[2];
+var b = parseFloat(abc[1]);
+var c = parseFloat(abc[2]);
 
 var D = b * b - 4 * a * c;
 

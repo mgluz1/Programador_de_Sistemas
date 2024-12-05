@@ -1,0 +1,1 @@
+// 10. Calcule a soma dos números pares de um array.

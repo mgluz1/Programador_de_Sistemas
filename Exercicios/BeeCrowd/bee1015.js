@@ -1,7 +1,7 @@
 var input = require('fs').readFileSync('./input.txt', 'utf8');
 var lines = input.split('\n');
 
-let xy1 = lines[0].split(' ');
+let xy1 = lines[0].split(' ');                       
 var x1 = parseFloat(xy1[0]);
 var y1 = parseFloat(xy1[1]);
 

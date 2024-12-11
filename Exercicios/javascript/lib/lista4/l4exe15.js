@@ -1,7 +1,7 @@
 // 15. Inverta uma string.
-function reverseString(str) {
+function palindr(str) {
     return str.split("").reverse().join("");
 }
-console.log(reverseString("hello"));
-console.log(reverseString("world"));
-console.log(reverseString("abc"));
+console.log(palindr("hello"));
+console.log(palindr("world"));
+console.log(palindr("abc"));

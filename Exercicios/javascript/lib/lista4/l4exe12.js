@@ -1,15 +1,7 @@
 // 12. Calcule a soma dos dígitos de um número.
-var c1 = 123
-var c2 = 456789
-var c3 = 8423416542984721
+import { somarDigitos } from "./bibliotecal4.js";
 
-function somarDigitos(num) {
-    var lista = num.toString().split('');
-    var soma = 0
-    for (var i = 0; i < lista.length; i++) soma += Number(lista[i]);
+console.log(somarDigitos(123));
+console.log(somarDigitos(456789));
+console.log(somarDigitos(8423416542984721));
 
-    return soma
-}
-console.log(somarDigitos(c1));
-console.log(somarDigitos(c2));
-console.log(somarDigitos(c3));

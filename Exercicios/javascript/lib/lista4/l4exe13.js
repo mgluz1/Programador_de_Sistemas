@@ -1,12 +1,6 @@
 // 13. Encontre o maior número em um array.
-var c1 = [1, 2, 3, 4, 5]
-var c2 = [-1, -2, -3, -4, -5]
-var c3 = [10, 20, 30, 40, -50]
+import { obeterMaior } from "./bibliotecal4.js";
 
-function obeterMaior(array) {
-    return Math.max(...array);
-}
-
-console.log(obeterMaior(c1));
-console.log(obeterMaior(c2));
-console.log(obeterMaior(c3));
+console.log(obeterMaior([1, 2, 3, 4, 5]));
+console.log(obeterMaior([-1, -2, -3, -4, -5]));
+console.log(obeterMaior([10, 20, 30, 40, -50]));

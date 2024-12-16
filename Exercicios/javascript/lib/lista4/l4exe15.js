@@ -1,7 +1,6 @@
 // 15. Inverta uma string.
-function palindr(str) {
-    return str.split("").reverse().join("");
-}
+import { palindr } from "./bibliotecal4.js";
+
 console.log(palindr("hello"));
 console.log(palindr("world"));
 console.log(palindr("abc"));

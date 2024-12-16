@@ -1,12 +1,5 @@
 // 16. Desafio Verifique se uma string é um palíndromo.
-function isPalindrome(str) {
-    const reversedStr = str.split("").reverse().join("");
-    if (str === reversedStr) {
-        return true; 
-    } else {
-        return false;
-    }
-}
+import { isPalindrome } from "./bibliotecal4.js";
 
 console.log(isPalindrome("racecar")); 
 console.log(isPalindrome("hello"));   

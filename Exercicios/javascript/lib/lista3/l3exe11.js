@@ -1,16 +1,7 @@
-function fatorial(n) {
-    var x = 0
-    var y2 = 1
-    while (x < n ) {
- 
-    var x = x + 1
-    
- var y2 = y2 * x
- console.log(y2)
+// 11. Calcule o fatorial de um número
+import { fatorial } from "./bibliotecal3.js";
 
-
- }}
-fatorial(5)
-fatorial(0)
-fatorial(3)
-fatorial(12)
+console.log(fatorial(5));
+console.log(fatorial(0));
+console.log(fatorial(3));
+console.log(fatorial(12));

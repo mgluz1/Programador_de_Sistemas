@@ -1,9 +1,6 @@
 // 8. Calcule o quadrado de um número
-function quadrado(x) {
-    var n1 = Number(x)
-    var result = n1 ** 2
-    return result
-}
+import { quadrado } from "./bibliotecal2.js";
+
 console.log(quadrado(2));
 console.log(quadrado(5));
 console.log(quadrado(10));

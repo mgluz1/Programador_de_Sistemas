@@ -1,16 +1,7 @@
-function soma(n) {
-    var x = 0
-    var y = 0
-    while (x < n ) {
- 
-    var x = x + 1
-    
- var y = y + x
- console.log(y)
+// 10. Calcule a soma de todos os números até N
+import { soma } from "./bibliotecal3.js";
 
- return y
- }}
-soma(5)
-soma(10)
-soma(1)
-soma(64)
+console.log(soma(5))
+console.log(soma(10))
+console.log(soma(1))
+console.log(soma(64))

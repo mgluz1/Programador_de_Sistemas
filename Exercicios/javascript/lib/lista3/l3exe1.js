@@ -1,9 +1,5 @@
-function avaliar(media) {
-    if (media >= 7.000){
-        return "Aprovado"
-    } else
-    return "Reprovado"
-}
+// 1. Classifique um aluno como "Aprovado" ou "Reprovado" de acordo com sua média:
+import { avaliar } from "./bibliotecal3.js";
 
 console.log(avaliar(10))
 console.log(avaliar(7.0))

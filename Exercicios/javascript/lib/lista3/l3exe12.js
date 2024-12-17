@@ -1,13 +1,5 @@
-function tabuada(n) {
-    for (var x = 0; x <= 10; x ++ ) {
-    
-   var n2 = n * x
-  let linha = `${n} x ${x} = ${n2}`
+// 12. Crie um procedimento que, dado um número, imprima a tabuada da multiplicação
+import { tabuada } from "./bibliotecal3.js";
 
-  console.log(linha)
-
-
- }}
-
-tabuada(2)
-tabuada(10)
+console.log(tabuada(2))
+console.log(tabuada(10))

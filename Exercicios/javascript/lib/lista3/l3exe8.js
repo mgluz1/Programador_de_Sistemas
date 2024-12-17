@@ -1,10 +1,6 @@
-function letra(vogal) {
-    if (vogal == "a" || vogal == "e" || vogal == "i" || vogal == "u" || vogal == "o" ) {
-        return "Vogal"
-    } else {
-        return "Consoante"
-    }
-}
+// 8. Desafio Verifique se um caractere é uma vogal ou consoante
+import { letra } from "./bibliotecal3.js";
+
 console.log(letra("a"))
 console.log(letra("b"))
 console.log(letra("e"))

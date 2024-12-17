@@ -1,14 +1,8 @@
-function n(positivo) {
-    if (positivo > 0) {
-        return "Positivo"
-    } else if (positivo == 0) {
-    return "Zero"
-    } else 
-    return "Negativo"
-}
+// 3. Verifique se um número é positivo, negativo ou zero
+import { positivoOuNegativo } from "./bibliotecal3.js";
 
-console.log(n(5))
-console.log(n(-3))
-console.log(n(0))
-console.log(n(1110))
-console.log(n(-987654321))
+console.log(positivoOuNegativo(5))
+console.log(positivoOuNegativo(-3))
+console.log(positivoOuNegativo(0))
+console.log(positivoOuNegativo(1110))
+console.log(positivoOuNegativo(-987654321))

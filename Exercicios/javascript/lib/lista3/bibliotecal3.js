@@ -23,19 +23,25 @@ export function positivoOuNegativo(positivo) {
 }
 // 4. Encontre o menor de três números utilizando apenas estruturas de controle (i.e. sem utilizar 
 // a biblioteca Math)
-export function obtermenor(a, b, c) {
-    let menor = a;
- if(a < b) menor = a;
- else      menor = b;
+export function obterMenor(a,b,c) {
+    let menor
+    if (a < b) {
+        menor = a
+    } else {
+        menor = b
+    }
+    if (c < menor) {
+        menor = c
+    } else{
+        menor = menor
+    }
+     
 
-    if(menor > b) menor = b;
-    if(menor > c) menor = c;
-
-    return menor;
+    return menor
 }
 // 5. Encontre o maior de três números utilizando apenas estruturas de controle (i.e. sem utilizar 
 // a biblioteca Math)
-export function obeterMaior(a,b,c) {
+export function obterMaior(a,b,c) {
     let maior
     if (a > b) {
         maior = a
@@ -105,17 +111,13 @@ export function soma(n) {
 }
 // 11. Calcule o fatorial de um número
 export function fatorial(n) {
-    var x = 0
-    var y2 = 1
-    while (x < n ) {
- 
-    var x = x + 1
-    
- var y2 = y2 * x
- console.log(y2)
-
-
- }}
+    let resultado = 1;
+    for (let i = 1; i <= n; i++) {
+        resultado *= i;
+    }
+    return resultado;
+}
+console.log(fatorial(5));
 // 12. Crie um procedimento que, dado um número, imprima a tabuada da multiplicação
 export function tabuada(n) {
     for (var x = 0; x <= 10; x ++ ) {

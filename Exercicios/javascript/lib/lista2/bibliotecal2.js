@@ -1,38 +1,30 @@
+// 2. Escreva um procedimento que solicita um nome e depois exiba um alerta com a mensagem "Olá,
+// [nome]!".
+export function OlaNome(nome){
+  return `Ola, ${nome}`
+}
 // 3. Escreva uma função que recebe dois números e retorna a soma.
 export function soma (x, y) { 
-    var n1 = (x);
-    var n2 = (y);
-           
-    result = (x + y);
+    var result = (x + y);
   
     return result;
   }
 // 4. Escreva uma função que receba dois números e imprime o resultado da multiplicação entre os
 // números.
 export function produto (x, y) { 
-    var n1 = (x);
-    var n2 = (y);
-           
-    result = (x * y);
+      var result = (x * y);
   
     return result;
   }
 // 5. Escreva uma função que recebe três números e retorna a média deles.
 export function media (x, y, z) { 
-    var n1 = (x);
-    var n2 = (y);
-    var n3 = (z);
-           
-    result = ((x + y + z)/3);
+    var result = ((x + y + z)/3);
   
     return result;
   }
 // 6. Escreva uma função que retorne o resultado da divisão inteira entre dois números inteiros.
 export function divisao (x, y) { 
-    var n1 = (x);
-    var n2 = (y);
-           
-    result = Math.floor(x / y);
+   var result = Math.floor(x / y);
   
     return result;
   }
